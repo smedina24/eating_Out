@@ -75,4 +75,9 @@ fisher.test(table1)
 fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
 
-The fisher xy test demonstrates that there is only a statistical difference between the white and black people. The p value between the white and black people is 0.0003864 this p value is extremely low and so we reject the null hypothesis. The p value for black and other people is 0.2815 this p value is high and indicates no statistical difference between black and other races. Lastly, the p value between white and other races is also high at 0.3543 this high p value indicates that there is no statistical difference between white and other races. 
+The fisher xy test demonstrates that there is only a statistical difference between the white and black people. The p value between the white and black people is 0.0003864 this p value is extremely low and so we reject the null hypothesis. The p value for black and other people is 0.2815 this p value is high and indicates no statistical difference between black and other races. Lastly, the p value between white and other races is also high at 0.3543 this high p value indicates that there is no statistical difference between white and other races.
+
+
+## Conclusion 
+
+ The only statistical difference as demonstrated by the fisher xy test is between the black and white people.The black and white people had the lowest p value unlike the p value between white and other which was high. Also the p value for black and other races was also too high to indicate a statistical difference. 
