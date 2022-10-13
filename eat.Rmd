@@ -52,4 +52,14 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 The bar chart indicates that of the white people about 85 percent eat out and less than 20 percent do not eat out. Furthermore, about 70 percent of black people eat out and 30 percent do not eat out. Lastly, for all other races about 79 percent eat out and about 22 percent do not eat out. It seems that the white people eat out the most, the black people eat out the least, and the other races are in between the white and black people.  
 
 
+  
+### Numerical Summaries  
+
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical results indicate that 83 percent of white people eat out and that 17 percent of white people do not eat out. Furthermore, 69 percent of the black people eat out while 31 percent do not eat out. Lastly, for all other races 78 percent eat out and and 22 percent do not eat out. It appears that the white people eat out the most followed by the other races and black people eat out the least. 
 
