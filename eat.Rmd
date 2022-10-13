@@ -63,3 +63,16 @@ colPerc(table1)
 
 The numerical results indicate that 83 percent of white people eat out and that 17 percent of white people do not eat out. Furthermore, 69 percent of the black people eat out while 31 percent do not eat out. Lastly, for all other races 78 percent eat out and and 22 percent do not eat out. It appears that the white people eat out the most followed by the other races and black people eat out the least. 
 
+
+## Inferential  
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+```{r}
+fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
+```
+
+The fisher xy test demonstrates that there is only a statistical difference between the white and black people. The p value between the white and black people is 0.0003864 this p value is extremely low and so we reject the null hypothesis. The p value for black and other people is 0.2815 this p value is high and indicates no statistical difference between black and other races. Lastly, the p value between white and other races is also high at 0.3543 this high p value indicates that there is no statistical difference between white and other races. 
